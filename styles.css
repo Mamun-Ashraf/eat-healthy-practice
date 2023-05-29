@@ -134,3 +134,25 @@ body {
 .users p {
     color: #18191F;
 }
+
+.footer {
+    margin-bottom: 100px;
+    background-color: #0B0D17;
+    text-align: center;
+    height: 256px;
+    padding-top: 36px;
+}
+
+.footer h1 {
+    font-size: 30px;
+    font-weight: 900;
+    color: gray;
+}
+
+.footer span {
+    color: #FBA24F;
+}
+
+.footer p {
+    color: #FFFFFF;
+}

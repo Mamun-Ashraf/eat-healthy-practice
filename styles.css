@@ -156,12 +156,13 @@ body {
     color: #FFFFFF;
 }
 
-/* Responsive for mobile */
+/* Responsive for mobile and medium devices */
 
-@media only screen and (max-width:576px) {
+@media only screen and (max-width:768px) {
     .healthy-food {
         flex-direction: column-reverse;
-        margin: 20px 0;
+        margin: 20px 0 50px;
+        text-align: center;
     }
 
     .half-width {
@@ -181,14 +182,10 @@ body {
         color: #828282
     }
 
-    /* .half-width img {
-        width: 100%;
-    } */
-
     .anchor-button {
         background-image: linear-gradient(to right, #FBA24F, #FF1E1E);
         text-decoration: none;
-        padding: 116px 24px;
+        padding: 16px 24px;
         border-radius: 100px;
         color: white;
         font-size: 18px;

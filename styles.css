@@ -1,5 +1,5 @@
 body {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .healthy-food {
@@ -8,7 +8,7 @@ body {
 }
 
 .half-width {
-    width: 40%;
+    width: 50%;
     margin: 0 5%;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 .half-width-content h1 {
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bold;
     color: #575757;
 }
@@ -29,7 +29,6 @@ body {
 .half-width-content p {
     font-size: 20px;
     font-weight: bold;
-    /* Fill: solid #828282 */
     color: #828282
 }
 
@@ -46,4 +45,23 @@ body {
     font-size: 18px;
     Fill: solid #FFFFFF;
     filter: drop-shadow(0px 2px 30px rgba(252, 143, 73, 0.5));
+}
+
+.about-me {
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.about-me img {
+    width: 338px;
+    height: 536px;
+    padding: 64px 200px 0 200px;
+}
+
+.about-me-content {
+    /* padding: 0 48px; */
+    margin: 127px 165px 90px 0;
 }
